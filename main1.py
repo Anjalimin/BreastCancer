@@ -5,7 +5,7 @@ import numpy as np
 from keras.utils.image_utils import load_img
 from keras.utils.image_utils import img_to_array
 
-model = load_model('C:/Users/jains/PycharmProjects/breastcancer/cancer_model.hdf5')
+model = load_model('cancer_model.hdf5')
 classes = ["Benign", "Malignant"]
 
 cancer_app = FastAPI()
